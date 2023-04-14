@@ -7,6 +7,7 @@ import Loading from '../Component/Load/Loading'
 function Home() {
   const [data,setData]=useState([])
   const [load,setLoad]=useState(true)
+  const [loads,setLoads]=useState(true)
   useEffect(()=>{
     const Fh = async()=>{
       const res= await axios.get('https://back-end1.onrender.com/get');
