@@ -13,7 +13,7 @@ function Home() {
       setData(res.data)
       if(res.data){
         setLoad(false)
-      }
+      } 
     }
     Fh()
     
